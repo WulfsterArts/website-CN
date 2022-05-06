@@ -1,0 +1,126 @@
+body{
+    color:whitesmoke;
+    background-color:rgb(56, 56, 56);
+    background-image:url(images/Darkswatch.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:90%;
+    text-align:justify;
+}
+p{
+    background-color:rgb(119, 136, 153, 0.8);
+}
+
+h1{
+    display:flex;
+    background-color:blueviolet;
+    color:white;
+    padding:5px;
+    width:80%;
+    
+}
+h2{
+    display:flex;
+    background-color:violet;
+    color:white;
+    padding:5px;
+    width:80%;
+    
+}
+h3{
+    display:flex;
+    background-color:violet;
+    color:white;
+    padding:5px;
+    width:80%;
+    
+}
+h4{
+    display:flex;
+    background-color:violet;
+    color:white;
+    padding:5px;
+    width:80%;
+    
+}
+h5{
+    display:flex;
+    background-color:violet;
+    color:white;
+    padding:5px;
+    width:80%;
+    
+}
+/* Gallery stuff */
+.gallerytriptic{
+    display: flex;
+    justify-content:left;
+    padding:5px;
+}
+
+.galleryobject{
+    padding:10px;
+    background-color: blueviolet;
+}
+
+.clicktoview{
+    font-size: 0.9em;
+    font-style:italic;
+}
+
+/* Navigation Boxes */
+.navbox{
+    display: flex;
+    width: 120px;
+    justify-content:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color:blueviolet;
+    background-color:whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+   }
+.navclass:visited{
+    color:blueviolet;
+}
+.navclass {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+/* Other Page Backgrounds */
+.navcontentpage{
+    background-color:rgb(161, 161, 161);
+    background-image: url(images/Whiteswatch.jpg);
+}
+.navaboutpage{
+    background-color:rgb(83, 83, 83);
+    background-image: url(images/whiteswatchalter.png);
+}
+
+/* Hyperlinks */
+a:link{
+    color:violet;
+    text-decoration: none;
+}
+a:visited{
+    color:blueviolet;
+    text-decoration: none;
+}
+a:hover{
+    color:pink;
+    text-decoration: none;
+}
+a:active{
+    color: rosybrown;
+    text-decoration: none;
+}
+
+.aboutspacing{
+    display:flex;
+    justify-content:space-around;
+    padding:2px;
+}
