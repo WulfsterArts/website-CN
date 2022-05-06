@@ -124,3 +124,16 @@ a:active{
     justify-content:space-around;
     padding:2px;
 }
+
+.contactspacing{
+    display:flex;
+    justify-content:left;
+    padding:10px;
+}
+
+.excerpt{
+    display:flex;
+    text-align:center;
+    font-style:italic;
+    font-weight:bold;
+}
